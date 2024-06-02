@@ -12,7 +12,7 @@ def get_color():
     get_colors = lambda n: list(map(lambda i: "#" + "%06x" % random.randint(0, 0xFFFFFF), range(n)))
     color_list = get_colors(100)
     return random.choice(color_list)
- 
+   
  
 def get_access_token():
     # appId
